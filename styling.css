@@ -34,3 +34,7 @@ body {
   background-size: 22px 22px;
   text-align: center;
 }
+
+.p {
+  font-family: "monospace";
+}
