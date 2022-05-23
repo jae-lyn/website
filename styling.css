@@ -1,10 +1,11 @@
-.container {
+.container-fluid {
   height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+/* Typing Effect */
 .type {
   width: 37%;
   animation: typing 2s steps(15), blink .6s step-end infinite alternate;
@@ -12,7 +13,7 @@
   overflow: hidden;
   border-right: 2px solid;
   font-family: monospace;
-  font-size: 1.5rem;
+  font-size: 25px;
 }
 
 @keyframes typing {
@@ -27,17 +28,23 @@
   }
 }
 
+/* Background */
 body {
   margin: 0;
   opacity: 0.8;
-  background-image: linear-gradient(#d9dbfa 1.1px, transparent 1.1px), linear-gradient(to right, #d9dbfa 1.1px, #f7f7f5 1.1px);
+  background-image: linear-gradient(#dddff6 1.1px, transparent 1.1px), linear-gradient(to right, #dddff6 1.1px, #fdfceb 1.1px);
   background-size: 22px 22px;
   font-family: Andale Mono, monospace;
   text-align: center;
 }
 
+/* Navigation Bar  */
+.navbar {
+  padding-top: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .nav-item {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.5;
+  font-size: 1.8rem;
+  padding: 0 12px;
 }
