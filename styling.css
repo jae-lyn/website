@@ -6,13 +6,13 @@
 }
 
 .type {
-  width: 30%;
+  width: 37%;
   animation: typing 2s steps(15), blink .6s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid;
   font-family: monospace;
-  font-size: 2em;
+  font-size: 1.5rem;
 }
 
 @keyframes typing {
@@ -29,9 +29,15 @@
 
 body {
   margin: 0;
-  opacity: 0.5;
+  opacity: 0.8;
   background-image: linear-gradient(#d9dbfa 1.1px, transparent 1.1px), linear-gradient(to right, #d9dbfa 1.1px, #f7f7f5 1.1px);
   background-size: 22px 22px;
-  font-family: monospace;
+  font-family: Andale Mono, monospace;
   text-align: center;
+}
+
+.nav-item {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
 }
