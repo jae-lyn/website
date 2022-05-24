@@ -28,23 +28,48 @@
   }
 }
 
+
+
 /* Background */
 body {
   margin: 0;
   opacity: 0.8;
-  background-image: linear-gradient(#dddff6 1.1px, transparent 1.1px), linear-gradient(to right, #dddff6 1.1px, #fdfceb 1.1px);
+  background: linear-gradient(#dddff6 1.1px, transparent 1.1px), linear-gradient(to right, #dddff6 1.1px, #fdfceb 1.1px);
   background-size: 22px 22px;
   font-family: Andale Mono, monospace;
   text-align: center;
 }
 
+/* Box / Chat Box */
+.box1 {
+  background-color: #fffef9;
+  width: 50%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid #dddff6 1.5px;
+  padding: 5px;
+  border-radius: 25px;
+  position: relative;
+
+}
+
+.container-fluid {
+  height: 300px;
+}
+
+/* Footer */
+.footer {
+  padding-top: 7rem;
+}
+
 /* Navigation Bar  */
 .navbar {
   padding-top: 2.5rem;
-  padding-right: 2.5rem;
+  padding-right: 2rem;
 }
 
 .nav-item {
   font-size: 1.8rem;
-  padding: 0 12px;
+  padding: 8px;
 }
