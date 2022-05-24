@@ -66,10 +66,11 @@ body {
 /* Navigation Bar  */
 .navbar {
   padding-top: 2.5rem;
-  padding-right: 2rem;
+  padding-left: 85%;
+  padding-right: 5.5rem;
 }
 
 .nav-item {
   font-size: 1.8rem;
-  padding: 8px;
+  padding: 4px;
 }
